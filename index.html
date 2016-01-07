@@ -75,7 +75,7 @@
           <p>Named for the beautiful bridge over the river Inns, this quaint town is the heartland of Tirol. Try their delicious speck!
           </p>
         </div>
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalbutton">Total modal</button>
+        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modalbutton">Total modal</button>
 
         <div class="modal fade" id="modalbutton" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
           <div class="modal-dialog modal-sm">
@@ -88,8 +88,15 @@
                 <form class="form">
                   <div class="form-group">
                     <label class="sr-only" for="modalbox">Modal Time</label>
-                    <input type="email" class="form-control">
+                    <input type="tel" class="form-control" id="PhoneNumber" placeholder="Phone Number">
                   </div>
+                  <div class="form-group">
+                    <select class="form-control">
+                      <option>Pepsi</option>
+                      <option>Coke</option>
+                    </select>
+                  </div>
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Send me!</button>
                 </form>
               </div>
 
