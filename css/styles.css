@@ -2,6 +2,11 @@
   padding-top: 25px;
 }
 
+.container1 {
+  padding-top: 50px;
+  padding-left:25px;
+}
+
 .item img {
   margin: auto;
 }
@@ -15,16 +20,17 @@
 }
 
 .carousel-indicators li {
-  border-color: #A16751;
+  border-color: #000000;
 }
 
 h2 {
   color: #A16751;
+  text-align: center;
 }
 
 .col-sm-4 {
   padding-top: 50px;
-  text-align: right;
+  text-align: left;
 }
 
 .col-sm-4 p {
@@ -36,6 +42,14 @@ h2 {
   margin-top: 30px;
 }
 
+h3 {
+  font-weight: bold;
+  text-shadow: 1px 1px #000000;
+}
+
+img {
+  width: 100%;
+}
 
 /*.button {
   margin: auto;
