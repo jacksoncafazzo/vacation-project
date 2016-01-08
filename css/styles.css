@@ -1,0 +1,43 @@
+.container {
+  padding-top: 25px;
+}
+
+.item img {
+  margin: auto;
+}
+
+.carousel-indicators {
+  bottom: 0;
+}
+
+.carousel-indicators .active {
+  background-color: #A16751;
+}
+
+.carousel-indicators li {
+  border-color: #A16751;
+}
+
+h2 {
+  color: #A16751;
+}
+
+.col-sm-4 {
+  padding-top: 50px;
+  text-align: right;
+}
+
+.col-sm-4 p {
+  color:#8E8E8E
+}
+
+.btn1 {
+  float: right;
+  margin-top: 30px;
+}
+
+
+/*.button {
+  margin: auto;
+
+}*/
