@@ -26,7 +26,11 @@ h2 {
   color:#8E8E8E
 }
 
-.button {
+.btn1 {
+  float: right;
+  margin-top: 30px;
+}
+/*.button {
   margin: auto;
 
-}
+}*/
